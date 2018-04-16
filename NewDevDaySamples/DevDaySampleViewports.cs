@@ -7,7 +7,7 @@ using Eto.Drawing;
 
 namespace NewDevDaySamples
 {
-  class DevDaySampleViewports : Rhino.Commands.Command
+  public class DevDaySampleViewports : Rhino.Commands.Command
   {
     public override string EnglishName => "DevDaySampleViewportControl";
 

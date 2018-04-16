@@ -71,7 +71,7 @@ namespace NewDevDaySamples
         e.Display.DrawPoint(center, PointStyle.ArrowTail, System.Drawing.Color.Black, fill, 6, 1, 3, (float)angle, true, true);
         e.Display.DrawPoint(center, PointStyle.ArrowTail, System.Drawing.Color.Black, fill, 6, 1, 3, (float)(angle + RhinoMath.ToRadians(180)), true, true);
 
-        e.Display.DrawPoint(points[1], PointStyle.Pin, System.Drawing.Color.Black, System.Drawing.Color.PeachPuff, 10, 1, 3, 0, true, true);
+        e.Display.DrawPoint(points[1], PointStyle.Pin, System.Drawing.Color.Black, System.Drawing.Color.PeachPuff, 15, 1, 5, 0, true, true);
 
         base.PostDrawObjects(e);
       }

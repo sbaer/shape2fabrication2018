@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NewDevDaySamples
 {
-  class DevDaySampleContour : Command
+  public class DevDaySampleContour : Command
   {
     public override string EnglishName => "DevDaySampleContour";
 
